@@ -1,3 +1,7 @@
 streamlit
 rapidfuzz
 thefuzz
+openai
+sentence-transformers
+faiss-cpu
+tiktoken
