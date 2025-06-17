@@ -1,0 +1,70 @@
+# core/memory.py
+import asyncio
+import json
+import logging
+from typing import List, Dict, Optional
+from asyncio import Lock
+
+from core.governance import DataGovernance
+
+logger = logging.getLogger(__name__)
+
+class QuantumMemoryLink:
+    """
+    An async-first, thread-safe semantic graph memory store.
+    Represents the core memory fabric of the AI, connecting insights and concepts.
+    """
+    def __init__(self, path: str, governance: DataGovernance):
+        self.path = path
+        self.governance = governance
+        self.data: Dict[str, Dict] = {}  # Node store: {id: insight_dict}
+        self.relationships: Dict[str, Dict] = {}  # Edge store: {source_id: {target_id: type}}
+        self._lock = Lock() # Use asyncio.Lock for async environments
+
+    async def load(self):
+        """Asynchronously loads memory from the filesystem."""
+        async with self._lock:
+            try:
+                with open(self.path, 'r', encoding='utf-8') as f:
+                    content = json.load(f)
+                    self.data = content.get("data", {})
+                    self.relationships = content.get("relationships", {})
+                logger.info(f"QuantumMemoryLink loaded with {len(self.data)} insights.")
+            except (FileNotFoundError, json.JSONDecodeError) as e:
+                logger.warning(f"Could not load quantum memory file ({e}). Starting fresh.")
+                self.data = {}
+                self.relationships = {}
+
+    async def _save(self):
+        """Asynchronously saves the current memory state to the filesystem."""
+        # This is an internal method and should be called within a lock.
+        try:
+            with open(self.path, 'w', encoding='utf-8') as f:
+                json.dump({"data": self.data, "relationships": self.relationships}, f, indent=2)
+            logger.debug("QuantumMemoryLink state saved.")
+        except Exception as e:
+            logger.error(f"Error saving QuantumMemoryLink: {e}")
+
+    async def sync_insight(self, insight: Dict):
+        """Asynchronously syncs a single, validated insight into memory."""
+        if not self.governance.validate_data("insight", insight):
+            logger.error(f"Invalid insight data received for sync: {insight}. Skipping.")
+            return
+
+        async with self._lock:
+            key = insight['id']
+            self.data[key] = insight
+            # Simple relationship inference can be expanded here
+            # e.g., using NLP to find related concepts
+            await self._save()
+    
+    async def get_all_insights(self) -> List[Dict]:
+        async with self._lock:
+            return list(self.data.values())
+
+    async def get_random_insight(self) -> Optional[Dict]:
+        async with self._lock:
+            if not self.data:
+                return None
+            random_id = random.choice(list(self.data.keys()))
+            return self.data.get(random_id)

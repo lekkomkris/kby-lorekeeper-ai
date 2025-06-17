@@ -1,7 +1,3 @@
-streamlit
-rapidfuzz
-thefuzz
-openai
-sentence-transformers
-faiss-cpu
-tiktoken
+# requirements.txt
+pydantic
+pydantic-settings

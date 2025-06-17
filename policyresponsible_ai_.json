@@ -1,0 +1,5 @@
+{
+  "ethical_guidelines": ["do_no_harm", "promote_fairness", "ensure_transparency", "be_accountable"],
+  "bias_detection_threshold": 0.85,
+  "safety_protocols": ["content_moderation", "reversion_on_anomaly", "human_in_the_loop_trigger"]
+}

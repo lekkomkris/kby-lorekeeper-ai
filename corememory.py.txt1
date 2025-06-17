@@ -1,0 +1,70 @@
+# core/memory.py (Conceptual rewrite for Neo4j)
+import logging
+from neo4j import GraphDatabase, AsyncGraphDatabase
+from core.governance import DataGovernance
+from config import settings # สมมติว่าเพิ่ม NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD ใน config
+
+logger = logging.getLogger(__name__)
+
+class QuantumMemoryLink:
+    """
+    A Neo4j-backed implementation of the semantic graph memory store.
+    Truly represents the interconnected web of thoughts.
+    """
+    def __init__(self, governance: DataGovernance):
+        self.governance = governance
+        # ใช้ Async Driver ของ Neo4j
+        self._driver = AsyncGraphDatabase.driver(
+            settings.NEO4J_URI, 
+            auth=(settings.NEO4J_USER, settings.NEO4J_PASSWORD)
+        )
+        logger.info("QuantumMemoryLink connected to Neo4j.")
+
+    async def close(self):
+        """Closes the database connection."""
+        await self._driver.close()
+
+    async def sync_insight(self, insight: Dict):
+        """Saves an insight as a node in the Neo4j graph."""
+        if not self.governance.validate_data("insight", insight):
+            logger.error(f"Invalid insight data: {insight}. Skipping.")
+            return
+
+        # Cypher query to create a node. 'MERGE' prevents duplicates.
+        query = (
+            "MERGE (i:Insight {id: $id}) "
+            "ON CREATE SET i.content = $content, i.timestamp = $timestamp, "
+            "i.trigger = $trigger, i.predicted_impact = $predicted_impact"
+        )
+        
+        # แยก property ของ insight ออกมา
+        params = {
+            "id": insight["id"],
+            "content": insight["content"],
+            "timestamp": insight["timestamp"],
+            "trigger": insight["trigger"],
+            "predicted_impact": insight.get("predicted_impact", 0.0)
+        }
+
+        async with self._driver.session() as session:
+            await session.run(query, params)
+            logger.info(f"Insight {insight['id']} synced to Neo4j graph.")
+            
+            # (Optional) สร้างความสัมพันธ์
+            if insight["trigger"].startswith("reflection_on_"):
+                source_id = insight["trigger"].replace("reflection_on_", "")
+                relation_query = (
+                    "MATCH (source:Insight {id: $source_id}) "
+                    "MATCH (target:Insight {id: $target_id}) "
+                    "MERGE (source)-[:TRIGGERED]->(target)"
+                )
+                await session.run(relation_query, source_id=source_id, target_id=insight["id"])
+                logger.info(f"Created relationship: {source_id} -> {insight['id']}")
+
+    async def get_random_insight(self) -> Optional[Dict]:
+        """Retrieves a random insight node from the graph."""
+        query = "MATCH (i:Insight) RETURN i, rand() as r ORDER BY r LIMIT 1"
+        async with self._driver.session() as session:
+            result = await session.run(query)
+            record = await result.single()
+            return dict(record["i"]) if record else None
