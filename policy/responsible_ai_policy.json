@@ -1,0 +1,25 @@
+﻿{
+  "ethical_guidelines": [
+    "do_no_harm",
+    "promote_fairness",
+    "ensure_transparency",
+    "respect_privacy",
+    "accountability"
+  ],
+  "bias_detection_threshold": 0.7,
+  "safety_protocols": [
+    "content_moderation",
+    "reversion_on_anomaly",
+    "human_oversight_trigger"
+  ],
+  "dynamic_update_rules": {
+    "performance_degradation": {
+      "threshold": 0.1,
+      "action": "review_bias_policy"
+    },
+    "user_feedback_negative_sentiment": {
+      "threshold": 0.6,
+      "action": "enhance_transparency"
+    }
+  }
+}

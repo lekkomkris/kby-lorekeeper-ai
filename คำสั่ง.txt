@@ -1,0 +1,7 @@
+
+cd C:\Users\Lek_Komkris PC\Desktop\tarn_panya_ai
+
+1
+python tarn_panya_ai.py
+2.
+python check_memory.py

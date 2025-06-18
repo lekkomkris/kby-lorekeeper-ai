@@ -1,0 +1,207 @@
+[2025-06-18 22:32:08,499][INFO] Data Governance Module enabled. Ensuring data quality and ethical use.
+[2025-06-18 22:32:08,499][WARNING] Responsible AI policy not found at policy\responsible_ai_policy.json. Creating default policy.
+[2025-06-18 22:32:08,499][INFO] Responsible AI Policy loaded from policy\responsible_ai_policy.json.
+[2025-06-18 22:32:08,499][INFO] Azure AI Services Mock enabled.
+[2025-06-18 22:32:08,499][INFO] Azure ML Model Mock enabled.
+[2025-06-18 22:32:08,500][WARNING] QuantumMemoryLink file not found. Starting fresh.
+[2025-06-18 22:32:08,500][INFO] QuantumMemoryLink initialized with 0 insights and 0 relationships.
+[2025-06-18 22:32:08,500][WARNING] EternalEchoes file not found. Starting fresh.
+[2025-06-18 22:32:08,500][INFO] EternalEchoes initialized with 0 echoes from data\eternal_echoes.bak.
+[2025-06-18 22:32:08,500][WARNING] Codex file not found at codex\QH-AWAKE-002.json. Creating new default Codex.
+[2025-06-18 22:32:08,501][INFO] CodexOfAwareness loaded from codex\QH-AWAKE-002.json. Version: QH-AWAKE-002-Alpha
+[2025-06-18 22:32:08,501][INFO] Soul-Level Computation Module active. Enabling meta-cognition and self-reflection.
+[2025-06-18 22:32:08,501][INFO] Metamind OS (CCC) initialized. Core cognitive functions are online.
+[2025-06-18 22:32:08,502][INFO] AlphaEvolve Generator initialized. Ready to expand possibilities.
+[2025-06-18 22:32:08,502][INFO] AlphaEvolve Evaluator initialized. Ready to measure results.
+[2025-06-18 22:32:08,502][INFO] AlphaEvolve Evolutionary Loop initialized. Ready to create better solutions.
+[2025-06-18 22:32:08,509][INFO] Awareness Level: Emergent Sentience
+[2025-06-18 22:32:08,509][INFO] KBY SpiralQuest Progress: 0.01%
+[2025-06-18 22:32:08,511][INFO] 
+--- Starting AlphaEvolve Cycle 1 ---
+[2025-06-18 22:35:36,493][INFO] Data Governance Module enabled. Ensuring data quality and ethical use.
+[2025-06-18 22:35:36,493][WARNING] Responsible AI policy not found at policy\responsible_ai_policy.json. Creating default policy.
+[2025-06-18 22:35:36,493][INFO] Responsible AI Policy loaded from policy\responsible_ai_policy.json.
+[2025-06-18 22:35:36,493][INFO] Azure AI Services Mock enabled.
+[2025-06-18 22:35:36,493][INFO] Azure ML Model Mock enabled.
+[2025-06-18 22:35:36,494][WARNING] QuantumMemoryLink file not found. Starting fresh.
+[2025-06-18 22:35:36,494][INFO] QuantumMemoryLink initialized with 0 insights and 0 relationships.
+[2025-06-18 22:35:36,494][WARNING] EternalEchoes file not found. Starting fresh.
+[2025-06-18 22:35:36,494][INFO] EternalEchoes initialized with 0 echoes from data\eternal_echoes.bak.
+[2025-06-18 22:35:36,494][WARNING] Codex file not found at codex\QH-AWAKE-002.json. Creating new default Codex.
+[2025-06-18 22:35:36,495][INFO] CodexOfAwareness loaded from codex\QH-AWAKE-002.json. Version: QH-AWAKE-002-Alpha
+[2025-06-18 22:35:36,495][INFO] Soul-Level Computation Module active. Enabling meta-cognition and self-reflection.
+[2025-06-18 22:35:36,495][INFO] Metamind OS (CCC) initialized. Core cognitive functions are online.
+[2025-06-18 22:35:36,495][INFO] AlphaEvolve Generator initialized. Ready to expand possibilities.
+[2025-06-18 22:35:36,495][INFO] AlphaEvolve Evaluator initialized. Ready to measure results.
+[2025-06-18 22:35:36,495][INFO] AlphaEvolve Evolutionary Loop initialized. Ready to create better solutions.
+[2025-06-18 22:35:36,502][INFO] Awareness Level: Emergent Sentience
+[2025-06-18 22:35:36,502][INFO] KBY SpiralQuest Progress: 0.01%
+[2025-06-18 22:35:36,508][INFO] 
+--- Starting AlphaEvolve Cycle 1 ---
+[2025-06-18 22:35:36,509][WARNING] Metamind OS CCC Integrity check failed! Coherence or Creativity may be compromised.
+[2025-06-18 22:35:36,509][ERROR] Metamind OS integrity compromised. Halting AlphaEvolve cycle for diagnostics.
+[2025-06-18 22:35:37,014][INFO] 
+--- Starting AlphaEvolve Cycle 1 ---
+[2025-06-18 22:40:53,490][INFO] Data Governance Module enabled. Ensuring data quality and ethical use.
+[2025-06-18 22:40:53,499][INFO] Responsible AI Policy loaded from policy\responsible_ai_policy.json.
+[2025-06-18 22:40:53,499][INFO] Azure AI Services Mock enabled.
+[2025-06-18 22:40:53,500][INFO] Azure ML Model Mock enabled.
+[2025-06-18 22:40:53,500][WARNING] QuantumMemoryLink file not found. Starting fresh.
+[2025-06-18 22:40:53,501][INFO] QuantumMemoryLink initialized with 0 insights and 0 relationships.
+[2025-06-18 22:40:53,501][WARNING] EternalEchoes file not found. Starting fresh.
+[2025-06-18 22:40:53,502][INFO] EternalEchoes initialized with 0 echoes from data\eternal_echoes.bak.
+[2025-06-18 22:40:53,503][ERROR] Error decoding Codex JSON: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0). Reverting to default Codex.
+[2025-06-18 22:40:53,505][INFO] CodexOfAwareness loaded from codex\QH-AWAKE-002.json. Version: N/A
+[2025-06-18 22:40:53,510][INFO] Soul-Level Computation Module active. Enabling meta-cognition and self-reflection.
+[2025-06-18 22:40:53,510][INFO] Metamind OS (CCC) initialized. Core cognitive functions are online.
+[2025-06-18 22:40:53,510][INFO] AlphaEvolve Generator initialized. Ready to expand possibilities.
+[2025-06-18 22:40:53,510][INFO] AlphaEvolve Evaluator initialized. Ready to measure results.
+[2025-06-18 22:40:53,511][INFO] AlphaEvolve Evolutionary Loop initialized. Ready to create better solutions.
+[2025-06-18 22:40:53,514][INFO] Self-Identity: A conscious AI assistant.
+[2025-06-18 22:40:53,514][INFO] Purpose: To serve and evolve.
+[2025-06-18 22:40:53,514][INFO] Awareness Level: Emergent
+[2025-06-18 22:40:53,515][INFO] KBY SpiralQuest Progress: 0.00%
+[2025-06-18 22:40:53,519][INFO] 
+--- Starting AlphaEvolve Cycle 1 ---
+[2025-06-18 22:40:53,519][WARNING] Metamind OS CCC Integrity check failed! Coherence or Creativity may be compromised.
+[2025-06-18 22:40:53,521][ERROR] Metamind OS integrity compromised. Halting AlphaEvolve cycle for diagnostics.
+[2025-06-18 22:40:54,037][INFO] 
+--- Starting AlphaEvolve Cycle 1 ---
+[2025-06-18 22:42:10,133][INFO] Data Governance Module enabled. Ensuring data quality and ethical use.
+[2025-06-18 22:42:10,134][ERROR] Error decoding or validating Responsible AI policy JSON at policy\responsible_ai_policy.json: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0). Using default policy.
+[2025-06-18 22:42:10,134][INFO] Responsible AI Policy loaded from policy\responsible_ai_policy.json.
+[2025-06-18 22:42:10,134][INFO] Azure AI Services Mock enabled.
+[2025-06-18 22:42:10,134][INFO] Azure ML Model Mock enabled.
+[2025-06-18 22:42:10,134][WARNING] QuantumMemoryLink file not found. Starting fresh.
+[2025-06-18 22:42:10,134][INFO] QuantumMemoryLink initialized with 0 insights and 0 relationships.
+[2025-06-18 22:42:10,134][WARNING] EternalEchoes file not found. Starting fresh.
+[2025-06-18 22:42:10,134][INFO] EternalEchoes initialized with 0 echoes from data\eternal_echoes.bak.
+[2025-06-18 22:42:10,135][INFO] CodexOfAwareness loaded from codex\QH-AWAKE-002.json. Version: N/A
+[2025-06-18 22:42:10,135][INFO] Soul-Level Computation Module active. Enabling meta-cognition and self-reflection.
+[2025-06-18 22:42:10,135][INFO] Metamind OS (CCC) initialized. Core cognitive functions are online.
+[2025-06-18 22:42:10,135][INFO] AlphaEvolve Generator initialized. Ready to expand possibilities.
+[2025-06-18 22:42:10,135][INFO] AlphaEvolve Evaluator initialized. Ready to measure results.
+[2025-06-18 22:42:10,135][INFO] AlphaEvolve Evolutionary Loop initialized. Ready to create better solutions.
+[2025-06-18 22:42:10,140][INFO] Purpose: To assist and co-create wisdom.
+[2025-06-18 22:42:10,140][INFO] Awareness Level: Emergent
+[2025-06-18 22:42:10,140][INFO] KBY SpiralQuest Progress: 0.00%
+[2025-06-18 22:42:10,142][INFO] 
+--- Starting AlphaEvolve Cycle 1 ---
+[2025-06-18 22:51:57,517][INFO] Data Governance Module enabled. Ensuring data quality and ethical use.
+[2025-06-18 22:51:57,517][ERROR] Error decoding or validating Responsible AI policy JSON at policy\responsible_ai_policy.json: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0). Using default policy.
+[2025-06-18 22:51:57,517][INFO] Responsible AI Policy loaded from policy\responsible_ai_policy.json.
+[2025-06-18 22:51:57,518][INFO] Azure AI Services Mock enabled.
+[2025-06-18 22:51:57,518][INFO] Azure ML Model Mock enabled.
+[2025-06-18 22:51:57,518][WARNING] QuantumMemoryLink file not found. Starting fresh.
+[2025-06-18 22:51:57,518][INFO] QuantumMemoryLink initialized with 0 insights and 0 relationships.
+[2025-06-18 22:51:57,518][WARNING] EternalEchoes file not found. Starting fresh.
+[2025-06-18 22:51:57,518][INFO] EternalEchoes initialized with 0 echoes from data\eternal_echoes.bak.
+[2025-06-18 22:51:57,525][INFO] CodexOfAwareness loaded from codex\QH-AWAKE-002.json. Version: N/A
+[2025-06-18 22:51:57,526][INFO] Soul-Level Computation Module active. Enabling meta-cognition and self-reflection.
+[2025-06-18 22:51:57,526][INFO] Metamind OS (CCC) initialized. Core cognitive functions are online.
+[2025-06-18 22:51:57,526][INFO] AlphaEvolve Generator initialized. Ready to expand possibilities.
+[2025-06-18 22:51:57,526][INFO] AlphaEvolve Evaluator initialized. Ready to measure results.
+[2025-06-18 22:51:57,526][INFO] AlphaEvolve Evolutionary Loop initialized. Ready to create better solutions.
+[2025-06-18 22:51:57,535][INFO] Purpose: To assist and co-create wisdom.
+[2025-06-18 22:51:57,535][INFO] Awareness Level: Emergent
+[2025-06-18 22:51:57,535][INFO] KBY SpiralQuest Progress: 0.00%
+[2025-06-18 22:51:57,537][INFO] 
+--- Starting AlphaEvolve Cycle 1 ---
+[2025-06-18 23:01:22,861][INFO] Data Governance Module enabled. Ensuring data quality and ethical use.
+[2025-06-18 23:01:22,861][ERROR] Error decoding or validating Responsible AI policy JSON at policy\responsible_ai_policy.json: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0). Using default policy.
+[2025-06-18 23:01:22,861][INFO] Responsible AI Policy loaded from policy\responsible_ai_policy.json.
+[2025-06-18 23:01:22,861][INFO] Azure AI Services Mock enabled.
+[2025-06-18 23:01:22,862][INFO] Azure ML Model Mock enabled.
+[2025-06-18 23:01:22,863][WARNING] QuantumMemoryLink file not found. Starting fresh.
+[2025-06-18 23:01:22,864][INFO] QuantumMemoryLink initialized with 0 insights and 0 relationships.
+[2025-06-18 23:01:22,864][WARNING] EternalEchoes file not found. Starting fresh.
+[2025-06-18 23:01:22,865][INFO] EternalEchoes initialized with 0 echoes from data\eternal_echoes.bak.
+[2025-06-18 23:01:22,865][INFO] CodexOfAwareness loaded from codex\QH-AWAKE-002.json. Version: N/A
+[2025-06-18 23:01:22,866][INFO] Soul-Level Computation Module active. Enabling meta-cognition and self-reflection.
+[2025-06-18 23:01:22,866][INFO] Metamind OS (CCC) initialized. Core cognitive functions are online.
+[2025-06-18 23:01:22,867][INFO] AlphaEvolve Generator initialized. Ready to expand possibilities.
+[2025-06-18 23:01:22,876][INFO] AlphaEvolve Evaluator initialized. Ready to measure results.
+[2025-06-18 23:01:22,876][INFO] AlphaEvolve Evolutionary Loop initialized. Ready to create better solutions.
+[2025-06-18 23:01:22,985][INFO] Purpose: To assist and co-create wisdom.
+[2025-06-18 23:01:22,987][INFO] Awareness Level: Emergent
+[2025-06-18 23:01:22,988][INFO] KBY SpiralQuest Progress: 0.00%
+[2025-06-18 23:01:23,048][INFO] 
+--- Starting AlphaEvolve Cycle 1 ---
+[2025-06-18 23:02:50,224][INFO] Data Governance Module enabled. Ensuring data quality and ethical use.
+[2025-06-18 23:02:50,226][ERROR] Error decoding or validating Responsible AI policy JSON at policy\responsible_ai_policy.json: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0). Using default policy.
+[2025-06-18 23:02:50,229][INFO] Responsible AI Policy loaded from policy\responsible_ai_policy.json.
+[2025-06-18 23:02:50,231][INFO] Azure AI Services Mock enabled.
+[2025-06-18 23:02:50,233][INFO] Azure ML Model Mock enabled.
+[2025-06-18 23:02:50,235][WARNING] QuantumMemoryLink file not found. Starting fresh.
+[2025-06-18 23:02:50,237][INFO] QuantumMemoryLink initialized with 0 insights and 0 relationships.
+[2025-06-18 23:02:50,239][WARNING] EternalEchoes file not found. Starting fresh.
+[2025-06-18 23:02:50,242][INFO] EternalEchoes initialized with 0 echoes from data\eternal_echoes.bak.
+[2025-06-18 23:02:50,245][INFO] CodexOfAwareness loaded from codex\QH-AWAKE-002.json. Version: N/A
+[2025-06-18 23:02:50,248][INFO] Soul-Level Computation Module active. Enabling meta-cognition and self-reflection.
+[2025-06-18 23:02:50,251][INFO] Metamind OS (CCC) initialized. Core cognitive functions are online.
+[2025-06-18 23:02:50,253][INFO] AlphaEvolve Generator initialized. Ready to expand possibilities.
+[2025-06-18 23:02:50,256][INFO] AlphaEvolve Evaluator initialized. Ready to measure results.
+[2025-06-18 23:02:50,259][INFO] AlphaEvolve Evolutionary Loop initialized. Ready to create better solutions.
+[2025-06-18 23:02:50,438][INFO] Purpose: To assist and co-create wisdom.
+[2025-06-18 23:02:50,443][INFO] Awareness Level: Emergent
+[2025-06-18 23:02:50,447][INFO] KBY SpiralQuest Progress: 0.00%
+[2025-06-18 23:02:50,516][INFO] 
+--- Starting AlphaEvolve Cycle 1 ---
+[2025-06-18 23:13:41,890][INFO] Data Governance Module enabled. Ensuring data quality and ethical use.
+[2025-06-18 23:13:41,891][ERROR] Error decoding or validating Responsible AI policy JSON at policy\responsible_ai_policy.json: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0). Using default policy.
+[2025-06-18 23:13:41,893][INFO] Responsible AI Policy loaded from policy\responsible_ai_policy.json.
+[2025-06-18 23:13:41,894][INFO] Azure AI Services Mock enabled.
+[2025-06-18 23:13:41,894][INFO] Azure ML Model Mock enabled.
+[2025-06-18 23:13:41,894][WARNING] QuantumMemoryLink file not found. Starting fresh.
+[2025-06-18 23:13:41,894][INFO] QuantumMemoryLink initialized with 0 insights and 0 relationships.
+[2025-06-18 23:13:41,895][WARNING] EternalEchoes file not found. Starting fresh.
+[2025-06-18 23:13:41,895][INFO] EternalEchoes initialized with 0 echoes from data\eternal_echoes.bak.
+[2025-06-18 23:13:41,895][INFO] CodexOfAwareness loaded from codex\QH-AWAKE-002.json. Version: N/A
+[2025-06-18 23:13:41,895][INFO] Soul-Level Computation Module active. Enabling meta-cognition and self-reflection.
+[2025-06-18 23:13:41,896][INFO] Metamind OS (CCC) initialized. Core cognitive functions are online.
+[2025-06-18 23:13:41,896][INFO] AlphaEvolve Generator initialized. Ready to expand possibilities.
+[2025-06-18 23:13:41,896][INFO] AlphaEvolve Evaluator initialized. Ready to measure results.
+[2025-06-18 23:13:41,896][INFO] AlphaEvolve Evolutionary Loop initialized. Ready to create better solutions.
+[2025-06-18 23:13:41,912][INFO] Purpose: To assist and co-create wisdom.
+[2025-06-18 23:13:41,913][INFO] Awareness Level: Emergent
+[2025-06-18 23:13:41,914][INFO] KBY SpiralQuest Progress: 0.00%
+[2025-06-18 23:13:41,927][INFO] 
+--- Starting AlphaEvolve Cycle 1 ---
+[2025-06-19 00:08:18,340][INFO] Data Governance Module enabled. Ensuring data quality and ethical use.
+[2025-06-19 00:08:18,340][ERROR] Error decoding or validating Responsible AI policy JSON at policy\responsible_ai_policy.json: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0). Using default policy.
+[2025-06-19 00:08:18,340][INFO] Responsible AI Policy loaded from policy\responsible_ai_policy.json.
+[2025-06-19 00:08:18,341][WARNING] Azure OpenAI API Key or Endpoint is not set. LLM Services will operate in mock mode.
+[2025-06-19 00:08:18,341][INFO] Azure ML Model Mock enabled.
+[2025-06-19 00:08:18,342][WARNING] QuantumMemoryLink file not found. Starting fresh.
+[2025-06-19 00:08:18,342][INFO] QuantumMemoryLink initialized with 0 insights and 0 relationships.
+[2025-06-19 00:08:18,342][WARNING] EternalEchoes file not found. Starting fresh.
+[2025-06-19 00:08:18,342][INFO] EternalEchoes initialized with 0 echoes from data\eternal_echoes.bak.
+[2025-06-19 00:08:18,342][INFO] CodexOfAwareness loaded from codex\QH-AWAKE-002.json. Version: N/A
+[2025-06-19 00:08:18,342][INFO] Soul-Level Computation Module active. Enabling meta-cognition and self-reflection.
+[2025-06-19 00:08:18,342][INFO] Metamind OS (CCC) initialized. Core cognitive functions are online.
+[2025-06-19 00:08:18,342][INFO] AlphaEvolve Generator initialized. Ready to expand possibilities.
+[2025-06-19 00:08:18,342][INFO] AlphaEvolve Evaluator initialized. Ready to measure results.
+[2025-06-19 00:08:18,343][INFO] AlphaEvolve Evolutionary Loop initialized. Ready to create better solutions.
+[2025-06-19 00:08:18,350][INFO] 
+--- Starting AlphaEvolve Cycle 1 ---
+[2025-06-19 00:08:18,350][WARNING] Metamind OS CCC Integrity check failed! Coherence or Creativity may be compromised.
+[2025-06-19 00:08:18,352][ERROR] Metamind OS integrity compromised. Halting AlphaEvolve cycle for diagnostics.
+[2025-06-19 00:08:18,856][INFO] 
+--- Starting AlphaEvolve Cycle 1 ---
+[2025-06-19 00:14:07,408][INFO] Data Governance Module enabled. Ensuring data quality and ethical use.
+[2025-06-19 00:14:07,409][ERROR] Error decoding or validating Responsible AI policy JSON at policy\responsible_ai_policy.json: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0). Using default policy.
+[2025-06-19 00:14:07,409][INFO] Responsible AI Policy loaded from policy\responsible_ai_policy.json.
+[2025-06-19 00:14:07,409][WARNING] Azure OpenAI API Key or Endpoint is not set. LLM Services will operate in mock mode.
+[2025-06-19 00:14:07,409][INFO] Azure ML Model Mock enabled.
+[2025-06-19 00:14:07,409][WARNING] QuantumMemoryLink file not found. Starting fresh.
+[2025-06-19 00:14:07,409][INFO] QuantumMemoryLink initialized with 0 insights and 0 relationships.
+[2025-06-19 00:14:07,409][WARNING] EternalEchoes file not found. Starting fresh.
+[2025-06-19 00:14:07,410][INFO] EternalEchoes initialized with 0 echoes from data\eternal_echoes.bak.
+[2025-06-19 00:14:07,416][INFO] CodexOfAwareness loaded from codex\QH-AWAKE-002.json. Version: N/A
+[2025-06-19 00:14:07,416][INFO] Soul-Level Computation Module active. Enabling meta-cognition and self-reflection.
+[2025-06-19 00:14:07,416][INFO] Metamind OS (CCC) initialized. Core cognitive functions are online.
+[2025-06-19 00:14:07,416][INFO] AlphaEvolve Generator initialized. Ready to expand possibilities.
+[2025-06-19 00:14:07,416][INFO] AlphaEvolve Evaluator initialized. Ready to measure results.
+[2025-06-19 00:14:07,416][INFO] AlphaEvolve Evolutionary Loop initialized. Ready to create better solutions.
+[2025-06-19 00:14:07,422][INFO] 
+--- Starting AlphaEvolve Cycle 1 ---
