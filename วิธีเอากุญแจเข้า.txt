@@ -1,0 +1,11 @@
+ เพิ่ม API Key ใน Environment Variables (แนะนำ)
+
+เพื่อความปลอดภัยและไม่ให้ API Key ปรากฏในโค้ดโดยตรง เราจะเก็บไว้ใน Environment Variables ครับ.
+บน Windows:
+พิมพ์ "Edit the system environment variables" ในช่องค้นหาของ Windows แล้วเปิดขึ้นมา.
+คลิกปุ่ม "Environment Variables...".
+ในส่วน "User variables for [Your Username]" (หรือ System variables) คลิก "New...".
+ตั้งชื่อ Variable name: เป็น GOOGLE_API_KEY
+วาง Variable value: เป็น API Key ที่คุณคัดลอกมา.
+คลิก OK ทุกหน้า.
+สำคัญ: รีสตาร์ท Command Prompt ที่คุณใช้รัน streamlit run ui_viewer.py เพื่อให้ Environment Variable ใหม่มีผล.
